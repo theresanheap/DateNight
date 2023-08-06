@@ -2,7 +2,6 @@ public class Main {
     public static void main(String[] args) {
         DateNightIdeasList ideasList = new DateNightIdeasList();
 
-        // Add some date night ideas to the list
         ideasList.addIdea(new DateNightIdea("Romantic candlelit dinner at a cozy restaurant.", "Enjoy a romantic dinner at a fancy restaurant", "Romance"));
         ideasList.addIdea(new DateNightIdea("Picnic in the park with your favorite snacks.", "Have a relaxing picnic in the park with your favorite snacks", "Outdoor"));
         ideasList.addIdea(new DateNightIdea("Movie night at home with popcorn and blankets.", "Watch a movie together at home with popcorn and cozy blankets", "Entertainment"));
@@ -24,7 +23,6 @@ public class Main {
         ideasList.addIdea(new DateNightIdea("Going on a double date with friends.", "Have a fun double date with friends", "Social"));
         ideasList.addIdea(new DateNightIdea("Participating in a local charity or volunteering together.", "Give back to the community by participating in a local charity or volunteering", "Social"));
 
-        // Get a random date night idea
         DateNightIdea randomIdea = ideasList.getRandomIdea();
 
         if (randomIdea != null) {
